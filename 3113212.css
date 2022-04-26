@@ -1,0 +1,18 @@
+#imgDiv{
+    color: blue;
+}
+
+/* 마우스를 올렸을 때 실행할 스타일 */
+#imgDiv:hover{
+    color:black;
+}
+
+#image{
+    /* 어떤 행동이 일어나는데 걸리는 시간을 지정 */
+    
+    transition:all 1s;
+}
+#image:hover{
+    /* transform = 형태를 바꾼다 */
+    transform: scale(1.5);
+}
